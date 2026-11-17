@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Week 7 Lab</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+    <div id="form">
+        
+        <form id="form2" name="info">
+            <p>
+            First Name <br />
+            <input type="text" id="first-name"/> <span id="fn-error" class="red"> </span>
+            </p>
+            
+            <p>
+            Last Name <br />
+            <input type="text" id="last-name"/> <span id="ln-error" class="red"> </span>
+            </p>
+            
+            <p>
+            Email <br />
+            <input type="text" id="email"/> <span id="email-error" class="red"> </span>
+            </p>
+
+            <p>
+            Confirm Email <br />
+            <input type="text" id="emailC"/> <span id="emailC-error" class="red"> </span>
+            </p>
+            
+            <p>
+            Phone Number <br />
+            <input type="text" id="phone"/> <span id="phone-error" class="red"> </span>
+            </p>
+            
+            <input type="button" value="Submit" id="button"/>
+        </form>
+
+    </div>
+
+    <div id="confirmation" class="hidden">
+        <h1>Confirmation</h1>
+        <p id="info">
+        </p>
+    </div>
+    
+    <script type="text/javascript" src="week7.js"></script>
+</body>
+</html>
